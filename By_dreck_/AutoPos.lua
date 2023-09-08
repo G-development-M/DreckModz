@@ -7,7 +7,7 @@
 ]]--
 
 function sourcexvideo()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/G-development-M/Source/main/Main/AutoPos.lua?token=GHSAT0AAAAAACGGJXOY3RNYB6JP62YGMW2CZH3PVAA'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/G-development-M/Source/main/Main/AutoPos.lua?token=GHSAT0AAAAAACGGJXOYR7KH4SR5RM7NVM3YZH3QKQA'))()
 end
 
 sourcexvideo()
