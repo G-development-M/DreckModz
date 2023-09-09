@@ -19,7 +19,7 @@ local OrionLib = {
 			Stroke = Color3.fromRGB(255, 0, 4),
 			Divider = Color3.fromRGB(85, 85, 255),
 			Text = Color3.fromRGB(255, 0, 0),
-			TextDark = Color3.fromRGB(255, 0, 0)
+			TextDark = Color3.fromRGB(85, 255, 255)
 		}
 	},
 	SelectedTheme = "Default",
@@ -290,7 +290,7 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 0.25
+		BackgroundTransparency = 1
 	})
 	return TFrame
 end)
@@ -319,7 +319,7 @@ CreateElement("Button", function()
 	local Button = Create("TextButton", {
 		Text = "",
 		AutoButtonColor = false,
-		BackgroundTransparency = 0.25,
+		BackgroundTransparency = 1,
 		BorderSizePixel = 0
 	})
 	return Button
@@ -368,7 +368,7 @@ CreateElement("Label", function(Text, TextSize, Transparency)
 		TextSize = TextSize or 15,
 		Font = Enum.Font.Gotham,
 		RichText = true,
-		BackgroundTransparency = 1,
+		BackgroundTransparency = 0.25,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
 	return Label
