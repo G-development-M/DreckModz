@@ -368,7 +368,7 @@ CreateElement("Label", function(Text, TextSize, Transparency)
 		TextSize = TextSize or 15,
 		Font = Enum.Font.Gotham,
 		RichText = true,
-		BackgroundTransparency = 0.25,
+		BackgroundTransparency = 1,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
 	return Label
