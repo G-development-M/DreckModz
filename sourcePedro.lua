@@ -290,7 +290,7 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 1
+		BackgroundTransparency = 0
 	})
 	return TFrame
 end)
@@ -692,7 +692,7 @@ function OrionLib:MakeWindow(WindowConfig)
 			Position = UDim2.new(0.5, 0, 0.4, 0),
 			Size = UDim2.new(0, 28, 0, 28),
 			ImageColor3 = Color3.fromRGB(255, 255, 255),
-			ImageTransparency = 0.25
+			ImageTransparency = 1
 		})
 
 		local LoadSequenceText = SetProps(MakeElement("Label", WindowConfig.IntroText, 14), {
