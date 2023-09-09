@@ -319,7 +319,7 @@ CreateElement("Button", function()
 	local Button = Create("TextButton", {
 		Text = "",
 		AutoButtonColor = false,
-		BackgroundTransparency = 1,
+		BackgroundTransparency = 0.25,
 		BorderSizePixel = 0
 	})
 	return Button
