@@ -16,10 +16,10 @@ local OrionLib = {
 		Default = {
 			Main = Color3.fromRGB(0, 0, 0),
 			Second = Color3.fromRGB(0, 0, 0),
-			Stroke = Color3.fromRGB(255, 0, 0),
+			Stroke = Color3.fromRGB(255, 255, 255),
 			Divider = Color3.fromRGB(0, 0, 0),
-			Text = Color3.fromRGB(255, 0, 0),
-			TextDark = Color3.fromRGB(255, 0, 0)
+			Text = Color3.fromRGB(255, 255, 255),
+			TextDark = Color3.fromRGB(255, 179, 0)
 		}
 	},
 	SelectedTheme = "Default",
@@ -368,7 +368,7 @@ CreateElement("Label", function(Text, TextSize, Transparency)
 		TextSize = TextSize or 15,
 		Font = Enum.Font.Gotham,
 		RichText = true,
-		BackgroundTransparency = 0,
+		BackgroundTransparency = 1,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
 	return Label
