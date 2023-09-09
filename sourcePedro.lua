@@ -290,7 +290,7 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 0
+		BackgroundTransparency = 1
 	})
 	return TFrame
 end)
@@ -368,7 +368,7 @@ CreateElement("Label", function(Text, TextSize, Transparency)
 		TextSize = TextSize or 15,
 		Font = Enum.Font.Gotham,
 		RichText = true,
-		BackgroundTransparency = 1,
+		BackgroundTransparency = 0,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
 	return Label
